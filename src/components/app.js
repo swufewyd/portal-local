@@ -40,7 +40,7 @@ var APP = React.createClass({
 });
 
 var routes = (
-    <Route name="index" path="/" handler={APP}>
+    <Route name="portal" path="/portal" handler={APP}>
               <DefaultRoute name="main" handler={Main}/>
                 <Route name="user" path="user" handler={User}>
                         <Route name="userReg" path="reg" handler={UserReg}/>

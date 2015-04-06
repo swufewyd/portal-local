@@ -12,8 +12,8 @@ app.all('*', function(req, res, next) {
     next();
 });
 
-app.get('*',function(req,res){
-	res.sendFile('/desktop/directory-react-nodejs/www/index.html');
+app.get('/*',function(req,res){
+	res.sendFile(__dirname+'/www/index.html');
 });
 /*app.get('/employees', employees.findAll);
 app.get('/employees/:id', employees.findById);*/

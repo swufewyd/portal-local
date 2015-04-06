@@ -14,13 +14,10 @@ var User = React.createClass({
     mixins: [Reflux.connectFilter(portalStore, "users", function(data) {
         return data.users;
     })],
-    test:function(){
+
+    render: function () {
         var routes = this.context.router.getCurrentRoutes();
         console.log(routes);
-    },
-    render: function () {
-        // console.log(this.state.users.userObjs);
-         this.test();
          
         return (
             <div className="container-fluid main">

@@ -9,7 +9,9 @@
     "lodash": "3.5.0",
     "react": "0.13.1",
     "react-bootstrap": "^0.20.1",
+    "react-data-components": "^0.3.0",
     "react-router": "0.13.2",
+    "reactable": "^0.10.1",
     "reflux": "0.2.7",
     "superagent": "1.1.0",
     "underscore": "^1.8.3"

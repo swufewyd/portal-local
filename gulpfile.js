@@ -76,7 +76,7 @@ gulp.task('clean', function (cb) {
     del(['./www/dist/**/*'], cb);
 });
 
-gulp.task('build', ['build:adminApp','build:vendor']);
+gulp.task('build', ['clean','build:adminApp','build:vendor']);
 
 
 gulp.task('watch', [ 'watch:adminApp']);

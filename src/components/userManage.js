@@ -7,6 +7,9 @@ var UserTable = require('./userTable');
 var Pager = require('./pager');
 var FilterBar = require('./filterBar');
 
+
+
+
 var UserManage = React.createClass({
     loadUserRows:function(params) {
         // console.log(params);
@@ -32,6 +35,8 @@ var UserManage = React.createClass({
                 		       <Pager loadUserRows={this.loadUserRows} userCount={this.props.userCount}/>
                                       </div>
                               </div>
+
+                             
         		</div>
         		);
     }
